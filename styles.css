@@ -26,12 +26,28 @@
   color: #fd8a8a;
 }
 
+.macleansheader {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 611;
+  font-style: normal;
+  font-size: clamp(1.8rem, 5vw, 3.5rem);
+}
+
+.fullscreen-bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Pushes video behind everything else */
+    overflow: hidden;
+}
+
 .fullscreen-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100vw;       /* Fill viewport width */
   height: 100vh;     /* Fill viewport height */
   object-fit: cover; /* Scale up and crop to prevent stretching */
-  z-index: -1;       /* Push behind your text content */
 }
