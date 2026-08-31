@@ -27,13 +27,15 @@
 }
 
 .macleansheader {
+  margin: auto;
+  text-shadow: #000000 0px 0 60px;
   text-align: center;
   color: aliceblue;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 611;
   font-style: normal;
-  font-size: clamp(1.8rem, 5vw, 3.5rem);
+  font-size: 10vw
 }
 
 .fullscreen-bg-container {
@@ -42,12 +44,12 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1; /* Pushes video behind everything else */
+    z-index: -1;
     overflow: hidden;
 }
 
 .fullscreen-bg {
-  width: 100vw;       /* Fill viewport width */
-  height: 100vh;     /* Fill viewport height */
-  object-fit: cover; /* Scale up and crop to prevent stretching */
+  width: 100vw; 
+  height: 100vh;
+  object-fit: cover;
 }
