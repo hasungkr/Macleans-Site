@@ -1,10 +1,9 @@
-/* Add a black background color to the top navigation */
+/* Top Navigation */
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -14,18 +13,17 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: rgb(255, 37, 37);
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #dfebeb;
   color: #fd8a8a;
 }
 
+/* Header for Home Page */
 .macleansheader {
   line-height: 13vw;
   display: flex;
@@ -43,6 +41,7 @@
   font-size: 15vw
 }
 
+/* Home Page Video */
 .fullscreen-bg-container {
     position: fixed;
     top: 0;
