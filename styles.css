@@ -1,26 +1,32 @@
 /* Top Navigation */
 .topnav {
-  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border-radius: 2vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
+  border-radius: 2vh;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: rgb(255, 37, 37);
+  background-color: #fdfdfd;
+  color: rgb(0, 0, 0);
 }
 
 .topnav a.active {
-  background-color: #dfebeb;
-  color: #fd8a8a;
+  background-color: aliceblue;
+  color: #000000;
 }
 
 /* Header for Home Page */
