@@ -1,14 +1,24 @@
 /* Top Navigation */
 .topnav {
-  gap: 2vw;
+  margin-top: 2vh;
+  margin-right: 2vh;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
   display: flex;
-  justify-content: center;
+  align-items: flex-end ;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   border-radius: 2vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(99, 99, 99, 0.3);
   backdrop-filter: blur(10px);
+  gap: 2vw;
   overflow: hidden;
 }
 
@@ -25,12 +35,10 @@
 .topnav a:hover {
   background-color: rgb(0, 255, 0, 0.1);
   color: rgb(255, 255, 255);
-  mask-image: radial-gradient(circle, black 40%, transparent 90%);
 }
 
 .topnav a.active {
   background-color: rgb(0, 255, 0, 0.3);
-  mask-image: radial-gradient(circle, black 40%, transparent 80%);
   color: #ffffff;
 }
 
@@ -79,16 +87,19 @@
   line-height: 8vw;
   text-align: center;
   color: white;
-  font-family: "Libertinus Serif", serif;
-  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
   font-style: normal;
   font-size: 10vw;
 }
 
 .italicheader {
-  font-family: "Instrument Serif", serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   font-weight: 550;
   font-style: italic;
+  letter-spacing: 0vw;
 }
 
 /* Images */
@@ -111,11 +122,12 @@
 /* Paragraphs */
 p {
   text-align: center;
-  font-family: "Instrument Serif", serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   font-weight: 550;
-  font-style: regular;
-  font-size: 3.5vw;
+  font-style: normal;
+  font-size: 2.5vw;
   color: white;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
