@@ -7,14 +7,14 @@
   font-optical-sizing: auto;
   font-style: normal;
   border-radius: 2vh;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   border-radius: 2vh;
   padding: 14px 16px;
@@ -23,17 +23,19 @@
 }
 
 .topnav a:hover {
-  background-color: #fdfdfd;
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 255, 0, 0.1);
+  color: rgb(255, 255, 255);
+  mask-image: radial-gradient(circle, black 40%, transparent 90%);
 }
 
 .topnav a.active {
-  background-color: aliceblue;
-  color: #000000;
+  background-color: rgb(0, 255, 0, 0.3);
+  mask-image: radial-gradient(circle, black 40%, transparent 80%);
+  color: #ffffff;
 }
 
 /* Header for Home Page */
-.macleansheader {
+#macleansheader {
   line-height: 13vw;
   display: flex;
   height: 80vh;
@@ -69,5 +71,51 @@
 
 /* Body Background */
 .body-bg {
-  background-color: beige;
+  background-color: #0D1117;
+}
+
+/* Headers */
+.header {
+  line-height: 8vw;
+  text-align: center;
+  color: white;
+  font-family: "Libertinus Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10vw;
+}
+
+.italicheader {
+  font-family: "Instrument Serif", serif;
+  font-weight: 550;
+  font-style: italic;
+}
+
+/* Images */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70vw;
+  height: auto;
+}
+
+#diary {
+  filter: drop-shadow(0 5vw 6vw rgba(157, 214, 255, 0.5));
+}
+
+#phone {
+  filter: drop-shadow(0 5vw 6vw rgba(157, 214, 255, 0.5));
+}
+
+/* Paragraphs */
+p {
+  text-align: center;
+  font-family: "Instrument Serif", serif;
+  font-weight: 550;
+  font-style: regular;
+  font-size: 3.5vw;
+  color: white;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
