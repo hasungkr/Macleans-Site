@@ -15,10 +15,10 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  border-radius: 2vh;
+  border-radius: 15px;
   background-color: rgba(99, 99, 99, 0.3);
   backdrop-filter: blur(10px);
-  gap: 2vw;
+  gap: 1.2vw;
   overflow: hidden;
 }
 
@@ -26,10 +26,10 @@
   float: left;
   color: #ffffff;
   text-align: center;
-  border-radius: 2vh;
-  padding: 14px 16px;
+  border-radius: 15px;
+  padding: 0.8vw 3vw;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.2vw;
 }
 
 .topnav a:hover {
@@ -47,7 +47,7 @@
   line-height: 13vw;
   display: flex;
   height: 80vh;
-  padding-left: 8vw;
+  padding-left: 4vw;
   justify-content: flex-start;
   align-items: flex-end;
   margin: auto;
@@ -84,7 +84,7 @@
 
 /* Headers */
 .header {
-  line-height: 8vw;
+  line-height: 9vw;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -95,7 +95,7 @@
 }
 
 .header2 {
-  margin-top: 20vh;
+  margin-top: 10vh;
   line-height: 0vw;
   text-align: center;
   color: white;
@@ -107,7 +107,7 @@
 }
 
 .header3 {
-  line-height: 8vw;
+  line-height: 4vw;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -138,8 +138,8 @@
   width: 30vw;
   height: auto;
   margin-left: 4vw;
-  margin-top: 8vh;
-  margin-bottom: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   border-radius: 4vw;
 }
 
@@ -147,19 +147,37 @@
   width: 30vw;
   height: auto;
   margin-right: 4vw;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   border-radius: 4vw;
 }
 
-#diary {
-  filter: drop-shadow(0 5vw 6vw rgba(157, 214, 255, 0.5));
+#ibm {
+  width: 60vw;
+  filter: drop-shadow(0 0 10vw rgba(253, 255, 150, 0.5));
 }
 
 #phone {
-  width: 60vw;
-  filter: drop-shadow(0 5vw 6vw rgba(157, 214, 255, 0.5));
+  width: 30vw;
+  filter: drop-shadow(0 0 4vw rgba(255, 255, 255, 0.5));
 }
+
+#fdt {
+  filter: drop-shadow(0 0 4vw rgba(232, 253, 39, 0.5));
+}
+
+#com {
+  filter: drop-shadow(0 0 4vw rgba(101, 189, 252, 0.5));
+}
+
+#dct {
+  filter: drop-shadow(0 0 4vw rgba(253, 255, 163, 0.5));
+}
+
+#art {
+  filter: drop-shadow(0 0 4vw rgba(255, 255, 255, 0.5));
+}
+
 
 /* Paragraphs */
 p {
@@ -184,6 +202,11 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 8vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  background-color: rgba(99, 99, 99, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 2vh;
 }
 
 .side-content {
