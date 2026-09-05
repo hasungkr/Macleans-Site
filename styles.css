@@ -95,6 +95,18 @@
 }
 
 .header2 {
+  margin-top: 20vh;
+  line-height: 0vw;
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 6vw;
+}
+
+.header3 {
   line-height: 8vw;
   text-align: center;
   color: white;
@@ -126,6 +138,8 @@
   width: 30vw;
   height: auto;
   margin-left: 4vw;
+  margin-top: 8vh;
+  margin-bottom: auto;
   border-radius: 4vw;
 }
 
@@ -133,6 +147,8 @@
   width: 30vw;
   height: auto;
   margin-right: 4vw;
+  margin-top: auto;
+  margin-bottom: auto;
   border-radius: 4vw;
 }
 
@@ -141,6 +157,7 @@
 }
 
 #phone {
+  width: 60vw;
   filter: drop-shadow(0 5vw 6vw rgba(157, 214, 255, 0.5));
 }
 
@@ -166,6 +183,7 @@ p {
 .container {
   display: flex;
   align-items: center;
+  margin-bottom: 8vh;
 }
 
 .side-content {
