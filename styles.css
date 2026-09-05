@@ -201,12 +201,14 @@ p {
 .container {
   display: flex;
   align-items: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   margin-bottom: 8vh;
   margin-left: 8vw;
   margin-right: 8vw;
-  background-color: rgba(99, 99, 99, 0.3);
+  background-color: rgba(99, 99, 99, 0.1);
   backdrop-filter: blur(10px);
-  border-radius: 2vh;
+  border-radius: 4vw;
 }
 
 .side-content {
