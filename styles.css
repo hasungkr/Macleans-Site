@@ -192,6 +192,13 @@
   filter: drop-shadow(0 0 4vw rgba(0, 255, 191, 0.5));
 }
 
+#thibaut {
+  filter: drop-shadow(0 0 4vw rgba(0, 255, 55, 0.5));
+}
+
+#pebble {
+  filter: drop-shadow(0 0 4vw rgba(250, 255, 230, 0.5));
+}
 
 /* Paragraphs */
 p {

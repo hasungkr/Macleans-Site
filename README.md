@@ -8,6 +8,7 @@ website design inspired by
 - [Thibaut](https://www.thibaut.cool/)
 
 ## IDEAS!
+
 - [] Typescript copy to clipboard button in the contacts table
 
 ## mark scheme
@@ -29,9 +30,9 @@ website design inspired by
   - [x] margin
   - [x] padding
 - [x] Links Between pages
-- [ ] Links To external sites
+- [x] Links To external sites
 - [x] Images
-- [ ] Tables
+- [x] Tables
 
 ### BASIC DESIGN FEATURES - CCS (/10)
 
