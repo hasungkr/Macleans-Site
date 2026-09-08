@@ -254,3 +254,8 @@ tr {
 .side-content {
   flex: 1;
 }
+
+/* Copy Email Button */
+.hidden {
+  display: none !important;
+}
