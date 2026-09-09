@@ -9,7 +9,7 @@ website design inspired by
 
 ## IDEAS!
 
-- [] Typescript copy to clipboard button in the contacts table
+- [x] Typescript copy to clipboard button in the contacts table
 
 ## mark scheme
 

@@ -135,7 +135,14 @@
   letter-spacing: 0vw;
 }
 
-/* Images */
+/* Media & Images */
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+}
+
 .image {
   display: block;
   margin-left: auto;
@@ -200,7 +207,7 @@
   filter: drop-shadow(0 0 4vw rgba(250, 255, 230, 0.5));
 }
 
-/* Paragraphs */
+/* Subtexts */
 p {
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -230,12 +237,25 @@ tr {
   margin-right: 15vw;
 }
 
+/* Links */
+a {
+  color: lightblue;
+}
+
 /* Containers/Divs */
+.content-section {
+  position: relative;
+  margin-top: 100vh; /* Pushes content exactly one screen-height down */
+  background: #0D1117; /* Give it a solid background color so the video doesn't show through */
+  padding: 40px;
+  z-index: 1;
+}
+
 .table {
   justify-content: center;
   border-spacing: 1vw;
   border-collapse: separate;
-  border-spacing: 5vw 0;    /* 20px horizontal gap, 0px vertical gap */
+  border-spacing: 1vw 0;
 }
 
 .container {
@@ -256,6 +276,28 @@ tr {
 }
 
 /* Copy Email Button */
-.hidden {
-  display: none !important;
+.copy-btn {
+  background-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 2vh;
+}
+
+/* Content Fade Up Animaton (Self Researched Advanced CSS)*/
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp linear both;
+  animation-timeline: view(); /* Binds animation directly to the element's viewport visibility */
+  animation-range: entry 10% cover 40%; /* Customizes exactly where the fade starts and ends */
 }
