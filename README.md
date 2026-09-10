@@ -47,10 +47,10 @@ website design inspired by
 ### ADVANCED FEATURES + DELIVERY - Could have (/10)
 
 - [x] Nav Bar - Menu System on top of each page allowing the user to choose between pages easily
-- [ ] Javascript - e.g. add a button that does something to your website when the user clicks on it. Must be relevant to your website
-- [ ] Video (Youtube embed)
-- [ ] Any other feature you have researched and worked out how to use. (Video &c, any css that you have had to research yourself in order to use)
-  - [ ] PLUS 2 bonus marks if you have something I think is very difficult or needs alot of time to get right (like drop down menus with gradual drop)
+- [x] Javascript - e.g. add a button that does something to your website when the user clicks on it. Must be relevant to your website
+- [x] Video (Youtube embed)
+- [x] Any other feature you have researched and worked out how to use. (Video &c, any css that you have had to research yourself in order to use)
+  - [Teacher's Choice!] PLUS 2 bonus marks if you have something I think is very difficult or needs alot of time to get right (like drop down menus with gradual drop)
 
 ### HTML Layout
 
