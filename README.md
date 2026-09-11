@@ -17,10 +17,10 @@ website design inspired by
 
 - [x] >= 2 Pages With sensible / interesting content.
 - [x] Correctly laid out page (header section correct, body correct)
-- [ ] Basic tags used. (including)
+- [x] Basic tags used. (including)
   - [x] headings
   - [x] paragraphs
-  - [ ] lists
+  - [x] lists
   - [x] span
   - [x] div
 - [x] Basic css properties used. (including)
@@ -50,7 +50,7 @@ website design inspired by
 - [x] Javascript - e.g. add a button that does something to your website when the user clicks on it. Must be relevant to your website
 - [x] Video (Youtube embed)
 - [x] Any other feature you have researched and worked out how to use. (Video &c, any css that you have had to research yourself in order to use)
-  - [Teacher's Choice!] PLUS 2 bonus marks if you have something I think is very difficult or needs alot of time to get right (like drop down menus with gradual drop)
+  - [Teacher's Choice] PLUS 2 bonus marks if you have something I think is very difficult or needs alot of time to get right (like drop down menus with gradual drop)
 
 ### HTML Layout
 

@@ -257,8 +257,8 @@ a {
 /* Containers/Divs */
 .content-section {
   position: relative;
-  margin-top: 100vh; /* Pushes content exactly one screen-height down */
-  background: #0D1117; /* Give it a solid background color so the video doesn't show through */
+  margin-top: 100vh;
+  background: #0D1117;
   padding: 40px;
   z-index: 1;
 }
