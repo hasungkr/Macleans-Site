@@ -220,6 +220,18 @@ p {
   margin-right: 5vw;
 }
 
+.p {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
 tr {
   text-align: center;
   font-family: "Playfair Display", serif;
